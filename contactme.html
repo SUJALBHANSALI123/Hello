@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<style>
+    /* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styling */
+body {
+    background-color: #020c22;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);  
+}
+
+/* Specific styles for Contact Me page */
+.contact-section {
+    max-width: 80vw;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.contact-section a {
+    color: rgb(170, 107, 228);
+    text-decoration: none;
+}
+
+.contact-section form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-section label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    color: #333;
+}
+
+.contact-section button {
+    background-color: rgb(170, 107, 228);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Sujal's Portfolio</title>
+    <link rel="stylesheet" href="index1.html"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <nav>
+        <!-- Your navigation code here -->
+    </nav>
+    <main>
+        <section class="contact-section">
+            <h1>Contact Me</h1>
+            <p>If you'd like to get in touch, feel free to reach out to me using the following methods:</p>
+            <ul>
+                <li>Email: sujalbhansali64@gmail.com</li>
+                <li>Phone: +91 8454987138</li>
+                <li>Social Media: <a href="#">Twitter</a>, <a href="#">LinkedIn</a>, <a href="#">Instagram</a></li>
+            </ul>
+            <p>You can also use the contact form below to send me a message:</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+  
+</body>
+</html>
